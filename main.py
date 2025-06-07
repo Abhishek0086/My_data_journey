@@ -1,0 +1,2 @@
+friend_age=23
+countries_visited=90
