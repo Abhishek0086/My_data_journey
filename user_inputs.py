@@ -3,6 +3,10 @@ your_name = input("Enter your name:")
 print(f"Hello, {your_name}. My name is {my_name}")
  """
 
-age = int(input("Enter your age :"))
+""" age = int(input("Enter your age :"))
 months = age * 12
-print(f"you have lived for {months} months ")
+print(f"you have lived for {months} months ") """
+
+age = int(input(" What is your age? "))
+months = age*12
+print(f"You are {months} months old")
