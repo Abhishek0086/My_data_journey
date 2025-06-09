@@ -1,1 +1,36 @@
-# My_data_journey
+# 🧠 My_data_journey
+
+Welcome to my Python learning journey! This repository documents the foundational concepts I've been learning in Python. Each `.py` file corresponds to a specific topic or concept.
+
+---
+
+## 📁 Topics Covered
+
+| File            | Topic/Concept                        | Description                                                                 |
+|-----------------|--------------------------------------|-----------------------------------------------------------------------------|
+| `hello.py`      | Hello World                          | My first Python script – printing output to the console.                   |
+| `main.py`       | Script Runner                        | Used to run and organize main functions.                                   |
+| `user_inputs.py`| Type Conversion                      | Practicing how to convert between data types.                              |
+| `booleans.py`   | Boolean Logic                        | Introduction to Boolean values (`True`, `False`) and logical operators.    |
+| `comparison.py` | Comparison Operators                 | Learning about relational operators (`==`, `!=`, `>`, `<`, etc).           |
+| `operations.py` | String Formatting                    | Practiced formatting strings using different methods.                      |
+| `texts.py`      | String Operations                    | Working with strings – slicing, joining, and basic manipulations.         |
+| `lists.py`      | Lists                                | Learning list basics, methods, and differences from other containers.      |
+| `tuple.py`      | Tuples                               | Understanding tuples – immutable sequences in Python.                      |
+| `maths.py`      | Math Operations                      | Practicing arithmetic and mathematical operations.                         |
+| `test.py`       | Math Practice & Testing              | Additional math practice; possibly used to test earlier functions.         |
+
+---
+
+## 🚀 How to Use This Repo
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Abhishek0086/My_data_journey.git
+   cd My_data_journey
+
+
+✍️ Author
+Abhishek Devadiga
+Aspiring Data Engineer
+Connect on GitHub
