@@ -19,6 +19,8 @@ Welcome to my Python learning journey! This repository documents the foundationa
 | `tuple.py`      | Tuples                               | Understanding tuples – immutable sequences in Python.                      |
 | `maths.py`      | Math Operations                      | Practicing arithmetic and mathematical operations.                         |
 | `test.py`       | Math Practice & Testing              | Additional math practice; possibly used to test earlier functions.         |
+| `sets.py`       | Sets                                 | Learned how to create sets, perform union, intersection, and remove duplicates. |
+
 
 ---
 
