@@ -48,10 +48,27 @@ quest_lower = set([q.lower() for q in quests]) """
 
 """ print(friends_lower.intersection(quest_lower)) """
 
-friends_lower = [f.lower() for f in friends]
+""" friends_lower = [f.lower() for f in friends]
 
 present_friends = [
     name.title()
     for name in quests
     if name.lower() in friends_lower
 ]
+ """
+
+friends_lower = {f.lower() for f in friends}
+quests_lower = {q.lower() for q in quests}
+
+common_friends = {name.title() for name in friends_lower.intersection(quests_lower)}
+print(common_friends)
+
+time_since_seen = [3, 7, 15, 11]
+
+long_timers = {
+    friends[i] : time_since_seen[i]
+    for i in range(len(friends))
+    if time_since_seen[i] > 10
+}
+
+print(long_timers)
