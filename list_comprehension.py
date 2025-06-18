@@ -28,11 +28,30 @@ lowercase_names = [name.lower() for name in names]
 print(lowercase_names) """
 
 
-friend = input("Enter your friend name:")
+""" friend = input("Enter your friend name:")
 friends = ['Rolf', 'ruth', 'charlie', 'Jen']
 friends_lower = [f.lower() for f in friends]
 
 if friend.lower() in friends_lower:
-    print(f"{friend.title()} is your friend")
+    print(f"{friend.title()} is your friend") """
 
 
+""" ages = [23, 21, 20, 19]
+odds =[age for age in ages if age % 2 == 1]
+print(odds) """
+
+friends = ['Rolf', 'ruth', 'Charlie', 'jen']
+quests = ['jose', 'Bob', 'ROlf', 'Charlie', 'micheal']
+
+""" friends_lower = set([f.lower() for f in friends])
+quest_lower = set([q.lower() for q in quests]) """
+
+""" print(friends_lower.intersection(quest_lower)) """
+
+friends_lower = [f.lower() for f in friends]
+
+present_friends = [
+    name.title()
+    for name in quests
+    if name.lower() in friends_lower
+]
