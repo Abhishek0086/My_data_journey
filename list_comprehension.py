@@ -15,6 +15,24 @@ print(doubled_numbers)
 # list comprehension with condition and if-else
 # doubled_numbers = [number * 2 if number % 2 == 0 else number for number in numbers]
 
-friend_age = [ 23, 21 ,20 , 19]
+""" friend_age = [ 23, 21 ,20 , 19]
 age_groups = [f'My friens is {age} years old ,' for age in friend_age]
 print(age_groups)
+#in case we want names without brackets 
+print("\n".join(age_groups))
+
+
+names = ['Alice', 'Bob', 'Charlie']
+
+lowercase_names = [name.lower() for name in names]
+print(lowercase_names) """
+
+
+friend = input("Enter your friend name:")
+friends = ['Rolf', 'ruth', 'charlie', 'Jen']
+friends_lower = [f.lower() for f in friends]
+
+if friend.lower() in friends_lower:
+    print(f"{friend.title()} is your friend")
+
+
