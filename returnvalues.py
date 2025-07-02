@@ -1,4 +1,4 @@
-cars = [ 
+""" cars = [ 
     {"brand": "Ford", "model": "Mustang", "year": 1964, "mileage": 23000, "fuel_consummed": 460},
     {"brand": "Chevrolet", "model": "Camaro", "year": 1967, "mileage": 15000, "fuel_consummed": 300},
     {"brand": "Dodge", "model": "Charger", "year": 1970, "mileage": 12000, "fuel_consummed": 240},
@@ -20,3 +20,13 @@ def print_car_info(car):
 
 for car in cars:
     print_car_info(car)
+
+     """
+
+
+def divide(x,y):
+    if y == 0:
+        return "Error: Division by zero is not allowed."
+    return x /y
+
+divide(10,2)
