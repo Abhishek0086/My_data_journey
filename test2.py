@@ -15,5 +15,14 @@ players = [
 # The winnings are calculated with the formula:
 # 100 ** len(numbers_matched)
 
-for name, numbers in enumerate(players.items()):
-    print(f'{name} won {100 ** len(numbers.intersection(lottery_numbers))}')
+top_player = players[0]  # start by saying "the top matching player is the first one"
+ 
+for player in players:  # Go over each player
+    matched_numbers = len(player["numbers"].intersection(lottery_numbers))  # Calculate how many numbers they matched
+    if matched_numbers > len(top_player["numbers"].intersection(lottery_numbers)):  # If they matched more than the current top player...
+        top_player = player  # Say this player is the new top player
+ 
+# Calculate their winnings using the formula!
+winnings = 100 ** len(top_player["numbers"].intersection(lottery_numbers))
+ 
+print(f"{top_player['name']} won {winnings}.")
