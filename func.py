@@ -32,7 +32,7 @@ def calculte_mpg(car):
     print(f'{name} does {mpg} miles per gallon.')
 
 for cars in car:
-    calculte_mpg(car)
+    calculte_mpg(cars)
 
 
 

@@ -20,7 +20,10 @@ class Garage:
     
     def __getitem__(self, index):
         return self.cars[index]
-    
+    def __repr__(self):
+        return f'<Garage with {self.cars}>'
+    def __str__(self):
+        return f'Garage with  {len(self)} cars:'
     
 
 ford = Garage()

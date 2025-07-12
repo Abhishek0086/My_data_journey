@@ -33,4 +33,4 @@ for student in students:
 
     operation_function = operations[operation]
     print(operation_function(grades))
-   
+        

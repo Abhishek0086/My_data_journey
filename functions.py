@@ -1,4 +1,6 @@
-def greet():
-    print("Hello World!")
+friends = ['Rolf', 'Anne', 'Charlie']
+def greet_friends(friends):
+    for friend in friends:
+        print(f'Hello {friend}!')
 
-greet()
+greet_friends(friends)
